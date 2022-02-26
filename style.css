@@ -9,22 +9,42 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navbar{
+/* .navbar{
   background-color: rgb(77, 73, 73);
 
-}
-.navbar-nav a{
-  color: aqua;
-}
+} */
 .first{
   color: white;
   display: flex;
   justify-content: space-around;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 .first h2{
   color: aqua;
 }
+#second{
+  border-radius: 20px;
+  /* color: white; */
+}
+#second:hover{
+  outline: none;
+  background-color: aqua;
+  color: black;
+}
+
 #first img{
   width: 300px;
+}
+.card-body{
+  background-color: gray;
+}
+h6{
+  color: aqua;
+}
+h5{
+  color: white;
+}
+.card-footer{
+  background-color: rgb(77, 73, 73);
+  text-align: center;
 }
