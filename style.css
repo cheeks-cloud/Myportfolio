@@ -9,8 +9,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navbar{
-  background-color: rgb(77, 73, 73);
+
+.navbar-nav{
   color: aqua;
 
 }
@@ -35,6 +35,7 @@ body{
 
 #first img{
   width: 300px;
+  border-radius: 50%;
 }
 .card-body{
   background-color: gray;
@@ -100,6 +101,83 @@ h5{
   color: aliceblue;
   padding: 20px;
 
+}
+.duke{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.kigeugeu{
+  text-align: center;
+}
+.kigeugeu p{
+  color: aliceblue;
+}
+.man{
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  
+  
+}
+.mans i{
+  margin: 40px;
+
+}
+.form-control{
+  background-color: rgb(0,0,0,0);
+  border-radius: 28px;
+}
+.form-control:hover{
+  border: 2px solid aqua;
+  background-color: rgb(0,0,0,0);
+}
+#things{
+  border-radius: 0;
+  height: 90px;
+  width: 400px;
+}
+.bi-geo-alt{
+  background-color: red;
+  padding: 5px;
+}
+.bi-envelope-open{
+  background-color: aqua;
+  padding: 5px;
+}
+#way{
+  /* background-color:green; */
+  padding: 10px;
+
+}
+.row{
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+h3{
+  color: aqua;
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+.card-text a{
+  text-align: center;
+  color: aqua;
+}
+#final, #shine{
+  color: aqua;
+}
+ footer{
+   /* background-color: rgb(77, 73, 73); */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 /* @media screen and (max-width: 740px){
  .first{
