@@ -59,8 +59,11 @@ h5{
   align-items: center;
   flex-direction: row;
 }
+.thirdi h5,h6{
+  text-align: center;
+}
 .third div {
-  margin-left:20px ;
+  margin-left:5px ;
  
 }
 .services{
@@ -112,7 +115,6 @@ h5{
   color: aliceblue;
 }
 .man{
-  margin-left: 30px;
   margin-top: 20px;
   display: flex;  
 }
@@ -120,7 +122,11 @@ h5{
   color: aliceblue;
 }
 form{
-  padding-left: 80px;
+ padding-right: 40px;
+ padding-left: 50px;
+} 
+.mans{
+  padding-left: 20px;
 }
 
 .form-control{
@@ -166,14 +172,13 @@ h3{
 }
 .card-text a{
   text-align: center;
-  color: aqua;
+  color: aqua !important;
 }
 #final, #shine{
   color: aqua;
 }
  .footer{
-   position: absolute;
-   bottom: 0;
+   padding-top: 70px;
    display: flex;
    justify-content: space-between !important;
 }
@@ -183,7 +188,23 @@ h3{
 .socials{
   float: right;
 }
+#about{
+  padding-top: 150px;
+}
+#services{
+  padding-top: 130px;
 
+}
+#myportfolio{
+  padding-top: 130px;
+}
+#contact{
+  padding-top: 100px;
+}
+#like{
+  text-align: center;
+
+}
 @media screen and (max-width: 740px){
  .first{
     flex-direction: column;
