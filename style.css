@@ -165,6 +165,7 @@ h3{
 
 .card-text{
   text-align: center;
+  list-style: none;
 }
 .card-text a{
   text-align: center;
